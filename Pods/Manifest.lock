@@ -1,0 +1,205 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AsyncSwift (2.0.4)
+  - AwesomeCache (5.0)
+  - CCNetwokingKit (1.1.0):
+    - Alamofire (~> 4.8.1)
+    - AwesomeCache (~> 5.0)
+    - CryptoSwift (~> 0.14.0)
+    - DeviceKit (~> 2.3.0)
+    - FMDB (~> 2.7.5)
+    - KeychainAccess (~> 3.1.2)
+    - LKDBHelper (~> 2.5.1)
+    - Moya (~> 14.0.0-alpha.1)
+    - Moya/RxSwift (~> 14.0.0-alpha.1)
+    - "NSObject+Rx (~> 5.0.0)"
+    - ObjectMapper (~> 3.3.0)
+    - PromiseKit
+    - ReachabilitySwift
+    - RxAlamofire (~> 5.0.0)
+    - RxBlocking (~> 5.0.0)
+    - RxCocoa (~> 5.0.0)
+    - RxSwift (~> 5.0.0)
+    - SwifterSwift (~> 4.6.0)
+    - SwiftyJSON (~> 4.1.0)
+    - XCGLogger (~> 7.0.0)
+  - CryptoSwift (0.14.0)
+  - DeviceKit (2.3.0)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Hue (4.0.0)
+  - KeychainAccess (3.1.2)
+  - LKDBHelper (2.5.2):
+    - LKDBHelper/standard (= 2.5.2)
+  - LKDBHelper/standard (2.5.2):
+    - FMDB
+  - LookinServer (0.9.4)
+  - Moya (14.0.0-alpha.1):
+    - Moya/Core (= 14.0.0-alpha.1)
+  - Moya/Core (14.0.0-alpha.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (14.0.0-alpha.1):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - "NSObject+Rx (5.0.2)":
+    - RxSwift (~> 5.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.3.0)
+  - pop (1.0.12)
+  - PromiseKit (6.11.0):
+    - PromiseKit/CorePromise (= 6.11.0)
+    - PromiseKit/Foundation (= 6.11.0)
+    - PromiseKit/UIKit (= 6.11.0)
+  - PromiseKit/CorePromise (6.11.0)
+  - PromiseKit/Foundation (6.11.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.11.0):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (5.0.0)
+  - Result (4.1.0)
+  - RTRootNavigationController (0.7.2):
+    - RTRootNavigationController/Core (= 0.7.2)
+  - RTRootNavigationController/Core (0.7.2)
+  - RxAlamofire (5.0.0):
+    - RxAlamofire/Core (= 5.0.0)
+  - RxAlamofire/Core (5.0.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxBlocking (5.0.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SnapKit (4.2.0)
+  - SwiftDate (6.1.0)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - SwiftyJSON (4.1.0)
+  - TWMessageBarManager (1.8.1)
+  - XCGLogger (7.0.0):
+    - XCGLogger/Core (= 7.0.0)
+  - XCGLogger/Core (7.0.0):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - AsyncSwift (~> 2.0.4)
+  - CCNetwokingKit (from `https://github.com/Bogon/CCNetwokingKit.git`)
+  - FDFullscreenPopGesture (~> 1.1)
+  - Hue (~> 4.0.0)
+  - LookinServer
+  - pop
+  - RTRootNavigationController (~> 0.7.1)
+  - SDWebImage
+  - SnapKit (~> 4.2.0)
+  - SwiftDate
+  - SwifterSwift (~> 4.6.0)
+  - TWMessageBarManager
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AsyncSwift
+    - AwesomeCache
+    - CryptoSwift
+    - DeviceKit
+    - FDFullscreenPopGesture
+    - FMDB
+    - Hue
+    - KeychainAccess
+    - LKDBHelper
+    - LookinServer
+    - Moya
+    - "NSObject+Rx"
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - pop
+    - PromiseKit
+    - ReachabilitySwift
+    - Result
+    - RTRootNavigationController
+    - RxAlamofire
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - SwiftDate
+    - SwifterSwift
+    - SwiftyJSON
+    - TWMessageBarManager
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  CCNetwokingKit:
+    :git: https://github.com/Bogon/CCNetwokingKit.git
+
+CHECKOUT OPTIONS:
+  CCNetwokingKit:
+    :commit: f96e5e9f01d8438ed0671fb44dc75a69000e42a9
+    :git: https://github.com/Bogon/CCNetwokingKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  AwesomeCache: d8906955242173357caa0be0214d5e77dec32cc5
+  CCNetwokingKit: 3612f60fa0a673538628f6810e1714ca9de1f35d
+  CryptoSwift: 35a10419f4dbf0619c13f8c1c180037e115323fa
+  DeviceKit: da103891aa928d89f64ea8dd8aca738c5f3d8ac0
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Hue: afe18b4e819e2848e7d2d5b4b33f4d3f88dd921b
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  LKDBHelper: 9afb4d8f314e284d698d456422b3828e691f40b4
+  LookinServer: 54eb99921647bda4068ff8776d842285e2bf0adb
+  Moya: 65485239114b3b327a17dc2e839f6c8b7143aae9
+  "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
+  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
+  RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
+  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
+
+PODFILE CHECKSUM: 9c50ed84daae068eae694c51f438c1c6dfb3577a
+
+COCOAPODS: 1.8.4

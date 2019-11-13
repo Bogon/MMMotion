@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MMSportsNewsView" customModule="生活口袋" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="RU9-Hi-0Et">
+                    <rect key="frame" x="12" y="10" width="145" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="xc5-Mq-xPP"/>
+                        <constraint firstAttribute="width" constant="145" id="yY9-Zw-HR5"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4y1-7X-vDb">
+                    <rect key="frame" x="15" y="118" width="399" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="海宁赛沃顿曹宇鹏袁思俊晋级第二轮 唐俊将战丁俊晖" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BN7-Hc-LkT">
+                    <rect key="frame" x="164" y="9" width="237" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015-10-21 13:55" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJZ-2w-1gc">
+                    <rect key="frame" x="164" y="94" width="172" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RU9-Hi-0Et" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="05g-ot-b0D"/>
+                <constraint firstItem="RU9-Hi-0Et" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0yY-wh-f7z"/>
+                <constraint firstItem="RU9-Hi-0Et" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Npb-hs-ER9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="line" destination="4y1-7X-vDb" id="5M0-ls-bza"/>
+                <outlet property="snv_imageview" destination="RU9-Hi-0Et" id="Lxg-Sv-LBI"/>
+                <outlet property="snv_time_label" destination="aJZ-2w-1gc" id="uEh-Qe-jRa"/>
+                <outlet property="snv_title_label" destination="BN7-Hc-LkT" id="Kao-zd-kDn"/>
+            </connections>
+            <point key="canvasLocation" x="-99" y="-1"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="news_placeholder" width="145" height="103"/>
+    </resources>
+</document>
