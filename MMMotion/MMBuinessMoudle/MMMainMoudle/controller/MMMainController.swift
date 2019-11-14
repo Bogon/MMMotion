@@ -59,7 +59,8 @@ class MMMainController: ScrollingNavigationViewController, ScrollingNavigationCo
             .subscribe(onNext:{
                 guard let strongSelf = weakSelf else { return }
                /// TODO……
-               strongSelf.navigationController?.pushViewController(MMNewsController())
+               //strongSelf.navigationController?.pushViewController(MMNewsController())
+                strongSelf.gotoAIAssistant()
             }).disposed(by: disposeBag)
                
         
